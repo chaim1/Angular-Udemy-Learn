@@ -1,3 +1,3 @@
 <button class="btn btn-primary btn-lg " (click)="onclick()"> display togul</button>
 <p *ngIf="showsicret">secret password: chaim</p>
-<div [ngClass]="{'widthClass': item >= 5}" [ngStyle]="{backgroundColor: item >= 5 ? 'blue' : width}" *ngFor="let item of log">{{item}}</div>
+<div [ngClass]="{'widthClass': i >= 4}" [ngStyle]="{backgroundColor: i >= 4 ? 'blue' : width}" *ngFor="let item of log; let i = index">{{item}}</div>
