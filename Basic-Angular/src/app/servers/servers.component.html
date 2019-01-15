@@ -12,7 +12,6 @@
 <ng-template #noServer>
   <p>mo server</p>
 </ng-template>
-<app-server></app-server>
-<app-server></app-server>
+<app-server *ngFor="let server of servers"></app-server>
 <!-- <app-success></app-success> -->
 

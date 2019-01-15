@@ -13,6 +13,7 @@ export class ServersComponent implements OnInit {
   servercrete = false;
   serverstatus:string  = 'Server off Line ';
   serverName = ' serverName';
+  servers = ['testserver',  'testserver1']
   constructor() { 
     setTimeout(()=>{
       this.allowNewServer = true;
@@ -23,6 +24,7 @@ export class ServersComponent implements OnInit {
   }
 
   serverOn(){
+    this.servers.push(this.serverName)
     this.servercrete = true;
     this.serverstatus = 'Server On Line'+this.serverName;
   }
