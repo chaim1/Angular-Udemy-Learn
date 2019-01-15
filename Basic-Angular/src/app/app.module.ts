@@ -8,6 +8,7 @@ import { ServersComponent } from './servers/servers.component';
 import { WarningComponent } from './warning/warning.component';
 import { SuccessComponent } from './success/success.component';
 import { PracticingComponent } from './practicing/practicing.component';
+import { TogelComponent } from './togel/togel.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { PracticingComponent } from './practicing/practicing.component';
     ServersComponent,
     WarningComponent,
     SuccessComponent,
-    PracticingComponent
+    PracticingComponent,
+    TogelComponent
   ],
   imports: [
     BrowserModule,
