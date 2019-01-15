@@ -1,0 +1,18 @@
+<p>
+  servers works!
+</p>
+
+<label>server name</label>
+<!-- <input type="text" (input)="addServerName($event)"> -->
+<input type="text" [(ngModel)]="serverName">
+<!-- <p>{{serverName}}</p> -->
+<button (click)="serverOn()" [disabled]="!allowNewServer"  class="btn btn-primary btn-lg active">Add server</button>
+<p>{{serverStatus}}</p>
+<p *ngIf="servercrete; else noServer">server is {{serverName}}</p>
+<ng-template #noServer>
+  <p>mo server</p>
+</ng-template>
+<app-server></app-server>
+<app-server></app-server>
+<!-- <app-success></app-success> -->
+
