@@ -40,7 +40,20 @@
 ## cmp Databinding Start
 
 *  module introduction
-* @Input
+* @Input ('nameInput')
+    *[nameInput]
+
+* @Output('nameOutput')
+    * onTsC "nameOfThisEvent" = new EventEmitter<{the object from parent component}>();
+    * onHTML(event Call The Method On This Component Or 'nameOutput' Call The Method)="Method($event)"
+    * emmit() for name of EventEmitterName
+
+* encapsulation
+    *ViewEncapsulation
+        *Emulated /Default
+        *None
+        *Native    
+
 
 ### 
 
