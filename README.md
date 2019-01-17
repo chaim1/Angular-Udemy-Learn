@@ -62,7 +62,21 @@
         * on method call nameElement: HTMLTypeElement
         * call to nameElement.value
         * @ViewChild('nameElement' Or nemeOfComponent)'nameElement' ~ ElementRef  
-            * on method call this nameElement.nativeElement.value 
+            * on method call this nameElement.nativeElement.value
+* ng-content
+* @ContentChild like @ViewChild
+* ngOnChanges
+* ngOnInit
+    * @ViewChild ~ dont work
+    * @ContentChild ~ dont work
+* ngDoCheck
+* ngAfterContentInit
+    * @ContentChild ~ work
+* ngAfterContentChecked
+* ngAfterViewInit
+    * @ViewChild ~ work
+* ngAfterViewChecked
+* ngOnDestroy
 
 
 ### 
