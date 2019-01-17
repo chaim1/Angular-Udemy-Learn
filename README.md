@@ -49,10 +49,10 @@
     * emmit() for name of EventEmitterName
 
 * encapsulation
-    *ViewEncapsulation
-        *Emulated /Default
-        *None
-        *Native    
+    * ViewEncapsulation
+        * Emulated /Default
+        * None
+        * Native    
 
 
 ### 
