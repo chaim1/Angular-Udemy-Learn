@@ -39,7 +39,8 @@
 
 ## cmp Databinding Start
 
-* 
+*  module introduction
+* @Input
 
 ### 
 
