@@ -37,7 +37,7 @@
 
 
 
-## cmp Databinding Start
+# Start
 
 *  module introduction
 * @Input ('nameInput')
@@ -71,7 +71,7 @@
     * @ContentChild ~ dont work
 * ngDoCheck
 * ngAfterContentInit
-    * @ContentChild ~ work
+    * @ContentChild ~  work
 * ngAfterContentChecked
 * ngAfterViewInit
     * @ViewChild ~ work
@@ -79,5 +79,5 @@
 * ngOnDestroy
 
 
-### 
+### Practices ~ 1
 
