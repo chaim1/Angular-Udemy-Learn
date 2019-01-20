@@ -79,5 +79,9 @@
 * ngOnDestroy
 
 
-### Practices ~ 1
+### Practices ~ 1 Practices-Databinding
+* create tow buttons start and stop game
+* on click start add component on app component whit number take whit @Input 
+* and app component give the interval whit @Output
+* on click stop kile the interval
 

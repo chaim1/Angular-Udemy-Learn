@@ -1,2 +1,4 @@
-<button (click)="startGame()" class="btn btn-primary"> Start Game</button>
-<button (click)="pushGame()" class="btn btn-warning"> Push Game</button>
+<button (click)="startSetInterval()" class="btn btn-primary" > Start Game</button>
+<button (click)="stopSetInterval()" class="btn btn-warning"  > Push Game</button>
+<app-even *ngFor=" let numA of numArray"  [num]="numA"></app-even>
+<app-odd *ngFor=" let numA of numArray" [num]="numA"></app-odd>
