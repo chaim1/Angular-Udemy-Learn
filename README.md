@@ -32,7 +32,7 @@
 * constractor models
 * Adding Navigation with Event Binding and ngIf
 * Passing  Data with Property Binding
-* Passing Data with Event and Property Binding (Combined)
+* Passing  Data with Event and Property Binding (Combined)
 
 ###
 
