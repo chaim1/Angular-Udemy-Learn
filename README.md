@@ -94,3 +94,4 @@
 *  Module Introduction
 * ngFor and ngIf Recap
 * ngClass and ngStyle Recap
+* Creating a Basic Attribute Directive
