@@ -35,6 +35,7 @@
 * Passing  Data with Property Binding
 * Passing  Data with Event and Property Binding (Combined)
 * Allowing the User to Add Ingredients to the Shopping List
+* Building and Using a Dropdown Directive
 
 ###
 
