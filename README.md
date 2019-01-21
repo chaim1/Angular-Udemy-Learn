@@ -92,3 +92,5 @@
 
 ## directives-start
 *  Module Introduction
+* ngFor and ngIf Recap
+* ngClass and ngStyle Recap
