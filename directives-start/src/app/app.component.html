@@ -9,22 +9,33 @@
             {{odd}}
           </li>
         </div>
-        <div *ngIf="!onlyOdd">
+        <!-- <div *ngIf="!onlyOdd">
           <li class="list-group-item" *ngFor="let even of evenNumbers" [ngClass]="{odd: even % 2 !== 0}" [ngStyle]="{backgroundColor: even % 2 !== 0? 'yellow' : 'green'}">
             {{even}}
           </li>
         </div>
+        <ng-template [ngIf]="!onlyOdd">
+            <div>
+              <li class="list-group-item" *ngFor="let even of evenNumbers" [ngClass]="{odd: even % 2 !== 0}" [ngStyle]="{backgroundColor: even % 2 !== 0? 'yellow' : 'green'}">
+                {{even}}
+              </li>
+            </div>
+          </ng-template> -->
+          <div *appUnless="onlyOdd">
+              <li class="list-group-item" *ngFor="let even of evenNumbers" [ngClass]="{odd: even % 2 !== 0}" [ngStyle]="{backgroundColor: even % 2 !== 0? 'yellow' : 'green'}">
+                {{even}}
+              </li>
+            </div>
       </ul>
-      <ng-template [ngIf]="!onlyOdd">
-        <div>
-          <li class="list-group-item" *ngFor="let even of evenNumbers" [ngClass]="{odd: even % 2 !== 0}" [ngStyle]="{backgroundColor: even % 2 !== 0? 'yellow' : 'green'}">
-            {{even}}
-          </li>
-        </div>
-      </ng-template>
       <p appBasicHighlight>this is a test style with Directive</p>
       <p appBetterHighlight [deafultColor]="'chartreuse'" [highlightColor]="'peru'"> this is a test style with Better
         Directive</p>
+        <div [ngSwitch]="value">
+          <p *ngSwitchCase="5">value is 5</p>
+          <p *ngSwitchCase="10">value is 10</p>
+          <p *ngSwitchCase="100">value is 100</p>
+          <p *ngSwitchDefault>value is default</p>
+        </div>
     </div>
   </div>
 </div>

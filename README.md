@@ -5,6 +5,7 @@
 * ngIf
 * ngFor
 * ngModel
+* ngSwitch
 * (events)
 * [ngStyle]
 * [ngClass]
@@ -99,3 +100,5 @@
 * using with renderer2 to build Attribute Directive // https://angular.io/api/core/Renderer2  
 * Using HostListener to Listen to Host Events
 * Using HostBinding to Bind to Host Properties
+* Building a Structural Directive
+* Understanding ngSwitch
