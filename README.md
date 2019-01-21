@@ -11,6 +11,8 @@
 * [ngClass]
 * functions
 * ng-template
+* Module Introduction
+* services
 
 
 ### Practices - 1
@@ -45,7 +47,7 @@
 
 ## cmd Databinding Start
 
-*  module introduction
+
 * @Input ('nameInput')
     *[nameInput]
 
@@ -93,7 +95,7 @@
 
 
 ## directives-start
-*  Module Introduction
+
 * ngFor and ngIf Recap
 * ngClass and ngStyle Recap
 * ng g directive / ng g d for Directive
@@ -103,3 +105,6 @@
 * Using HostBinding to Bind to Host Properties
 * Building a Structural Directive
 * Understanding ngSwitch
+
+## services-start
+* 
