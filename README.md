@@ -89,3 +89,6 @@
 * and app component give the interval whit @Output
 * on click stop kile the interval
 
+
+## directives-start
+*  Module Introduction
