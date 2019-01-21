@@ -5,28 +5,26 @@
       <br><br>
       <ul class="list-group">
         <div *ngIf="onlyOdd">
-          <li class="list-group-item" 
-          *ngFor="let odd of oddNumbers"
-          [ngClass]="{odd: odd % 2 !== 0}"
-          [ngStyle]="{backgroundColor: odd % 2 !== 0? 'yellow' : 'green'}">
+          <li class="list-group-item" *ngFor="let odd of oddNumbers" [ngClass]="{odd: odd % 2 !== 0}" [ngStyle]="{backgroundColor: odd % 2 !== 0? 'yellow' : 'green'}">
             {{odd}}
           </li>
         </div>
         <div *ngIf="!onlyOdd">
-          <li class="list-group-item" 
-          *ngFor="let even of evenNumbers"
-          [ngClass]="{odd: even % 2 !== 0}"
-          [ngStyle]="{backgroundColor: even % 2 !== 0? 'yellow' : 'green'}">
+          <li class="list-group-item" *ngFor="let even of evenNumbers" [ngClass]="{odd: even % 2 !== 0}" [ngStyle]="{backgroundColor: even % 2 !== 0? 'yellow' : 'green'}">
             {{even}}
           </li>
         </div>
       </ul>
-      <p appBasicHighlight>this is a test style with Directive</p>
-      <p appBetterHighlight> this is a test style with Better Directive</p>
-
-      <ng-template [ngIf]="onlyOdd">
-        <p>Only odd</p>
+      <ng-template [ngIf]="!onlyOdd">
+        <div>
+          <li class="list-group-item" *ngFor="let even of evenNumbers" [ngClass]="{odd: even % 2 !== 0}" [ngStyle]="{backgroundColor: even % 2 !== 0? 'yellow' : 'green'}">
+            {{even}}
+          </li>
+        </div>
       </ng-template>
+      <p appBasicHighlight>this is a test style with Directive</p>
+      <p appBetterHighlight [deafultColor]="'chartreuse'" [highlightColor]="'peru'"> this is a test style with Better
+        Directive</p>
     </div>
   </div>
 </div>
