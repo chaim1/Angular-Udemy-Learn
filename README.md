@@ -94,4 +94,6 @@
 *  Module Introduction
 * ngFor and ngIf Recap
 * ngClass and ngStyle Recap
+* ng g directive / ng g d for Directive
 * Creating a Basic Attribute Directive
+* using with renderer2 to build Attribute Directive // https://angular.io/api/core/Renderer2 
