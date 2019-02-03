@@ -11,8 +11,16 @@ export class ShppingListService {
       getIngtredients(){
         return this.ingrediens.slice();
       }
-      addIngtredients(ingredient: Ingredient){
+      addIngtredient(ingredient: Ingredient){
         this.ingrediens.push(ingredient);
         this.ingridientChanged.emit(this.ingrediens.slice());
       }
+      addIngredients(ingrediens: Ingredient[]){
+        // for(let ingre of ingrediens){
+        //     this.addIngredients(ingre);
+        // }
+        this.ingrediens.push(...ingrediens);
+        this.ingridientChanged.emit(this.ingrediens.slice());
+      }
+
 }
