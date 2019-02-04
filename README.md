@@ -123,3 +123,4 @@
 * on link add  routerLink="/name of route" || [routerLink]="['/names of routes']" ../ ./
 * routerLinkActive="active" to set property to active
 * [routerLinkActiveOptions]="{exact: true}" for home compon when the route is jast ''
+* Navigating Programmatically
