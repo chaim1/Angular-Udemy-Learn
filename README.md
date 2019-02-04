@@ -124,3 +124,5 @@
 * routerLinkActive="active" to set property to active
 * [routerLinkActiveOptions]="{exact: true}" for home compon when the route is jast ''
 * Navigating Programmatically
+* ActivatedRoute
+* in navigate relativeTo: this.'name ActivatedRoute'
