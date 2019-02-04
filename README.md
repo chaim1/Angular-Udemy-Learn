@@ -133,3 +133,4 @@
 * Setting up Child (Nested) Routes
 * queryParamsHandling to preserve te route
 * Redirecting and Wildcard Routes whit redirectTo 'need to bee last'
+* Outsourcing the Route Configuration
