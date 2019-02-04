@@ -16,6 +16,7 @@ import { ServersService } from './servers/servers.service';
 const attRoutes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'users', component: UsersComponent },
+  { path: 'users/:id', component: UserComponent },
   { path: 'servers', component: ServersComponent },
 ];
 

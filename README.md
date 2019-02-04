@@ -126,3 +126,4 @@
 * Navigating Programmatically
 * ActivatedRoute
 * in navigate relativeTo: this.'name ActivatedRoute'
+* Passing Parameters to Routes add to route /:'param'
