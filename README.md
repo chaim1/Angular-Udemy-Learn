@@ -129,3 +129,4 @@
 * Passing Parameters to Routes add to route /:'param'
 * Fetching Route Parameters
 * Fetching Route Parameters Reactively by subscribe()
+* Passing Query Parameters and Fragments
