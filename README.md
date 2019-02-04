@@ -130,3 +130,4 @@
 * Fetching Route Parameters
 * Fetching Route Parameters Reactively by subscribe()
 * Passing Query Parameters and Fragments
+* Setting up Child (Nested) Routes
