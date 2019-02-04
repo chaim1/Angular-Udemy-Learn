@@ -128,3 +128,4 @@
 * in navigate relativeTo: this.'name ActivatedRoute'
 * Passing Parameters to Routes add to route /:'param'
 * Fetching Route Parameters
+* Fetching Route Parameters Reactively
