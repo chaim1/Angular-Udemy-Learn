@@ -115,3 +115,9 @@
 ## routing start
 
 * Routing
+* Setting up and Loading Routes
+* Navigating with Router Links
+* import { RouterModule, Routes } from '@angular/router'
+* const Routes: Routes = []
+* add to imports 'RouterModule.forRoot(Routes)'
+* on link add  routerLink="name of route" || [routerLink]="['names of routes']"
