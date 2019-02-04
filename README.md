@@ -120,4 +120,6 @@
 * import { RouterModule, Routes } from '@angular/router'
 * const Routes: Routes = []
 * add to imports 'RouterModule.forRoot(Routes)'
-* on link add  routerLink="name of route" || [routerLink]="['names of routes']"
+* on link add  routerLink="/name of route" || [routerLink]="['/names of routes']" ../ ./
+* routerLinkActive="active" to set property to active
+* [routerLinkActiveOptions]="{exact: true}" for home compon when the route is jast ''
