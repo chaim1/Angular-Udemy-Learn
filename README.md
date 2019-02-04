@@ -131,3 +131,5 @@
 * Fetching Route Parameters Reactively by subscribe()
 * Passing Query Parameters and Fragments
 * Setting up Child (Nested) Routes
+* queryParamsHandling to preserve te route
+* Redirecting and Wildcard Routes whit redirectTo 'need to bee last'
