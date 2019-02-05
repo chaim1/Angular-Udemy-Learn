@@ -134,3 +134,5 @@
 * queryParamsHandling to preserve te route
 * Redirecting and Wildcard Routes whit redirectTo 'need to bee last'
 * Outsourcing the Route Configuration
+* An Introduction to Guards
+* Protecting Routes with canActivate
