@@ -136,3 +136,5 @@
 * Outsourcing the Route Configuration
 * An Introduction to Guards
 * Protecting Routes with canActivate
+* canDeactivate
+* Controlling Navigation with canDeactivate
