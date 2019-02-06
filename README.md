@@ -138,3 +138,4 @@
 * Protecting Routes with canActivate
 * canDeactivate
 * Controlling Navigation with canDeactivate
+* Passing Static Data to a Route
