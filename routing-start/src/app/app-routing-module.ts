@@ -32,7 +32,9 @@ const attRoutes: Routes = [
   ];
 @NgModule({
     imports: [
+        // RouterModule.forRoot(attRoutes, {useHash: true})
         RouterModule.forRoot(attRoutes)
+
     ],
     exports: [RouterModule]
 })
