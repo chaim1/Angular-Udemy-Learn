@@ -39,6 +39,7 @@
 * Allowing the User to Add Ingredients to the Shopping List
 * Building and Using a Dropdown Directive
 * use services in recipe and shopping list
+* Setting Up Routes
 
 ###
 
