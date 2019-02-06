@@ -139,3 +139,4 @@
 * canDeactivate
 * Controlling Navigation with canDeactivate
 * Passing Static Data to a Route
+* Resolving Dynamic Data with the resolve Guard
