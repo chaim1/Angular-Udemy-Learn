@@ -151,3 +151,5 @@
 * Building & Using a Custom Observable
 * subscribe
 * Unsubscribe
+* subject
+* Using Subjects to Pass AND Listen to Data
