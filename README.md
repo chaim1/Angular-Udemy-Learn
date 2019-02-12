@@ -158,3 +158,7 @@
 ## forms-td-start
 * ngModul in input
 * name="" in input
+* Opening a form tag insert (ngSubmit)="function()"
+* Opening a form tag insert #name="ngForm"
+* in the function insert the name of ngForm
+* in function on appcomponent insert form: type ngForm 
