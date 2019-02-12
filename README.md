@@ -157,7 +157,7 @@
 * Observable Operators
 
 ## forms-td-start
-* ngModul in input
+* `ngModul` in input
 * `name=""` in input
 * Opening a form tag insert `(ngSubmit)="function()"`
 * Opening a form tag insert `#name="ngForm"`
@@ -175,3 +175,5 @@
     * this enable to insert classes if this form valid like disabeld if valid `[disabled]="!nameForm.valid"`
     * in css enable the insert class if this invalid by insert in the name of class `input.ng-invalid.ng-touched{}` 
     * and can to insert name in input whit `"ngModel"` and enter span whit massage whit `ngIf="nameInput.valid and touched"`
+* in the `ngModel` in input can insert property for exemple in the selected insert the value whant default `[ngmodel]="default"` can set var fron component     
+* for insert the text in the another place in writing use ngModel `[(ngModel)="name"` and insert the name another place in component set the this `name=""` ]
