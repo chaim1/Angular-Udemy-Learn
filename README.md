@@ -158,20 +158,20 @@
 
 ## forms-td-start
 * ngModul in input
-* name="" in input
-* Opening a form tag insert (ngSubmit)="function()"
-* Opening a form tag insert #name="ngForm"
-* in the function insert the name of ngForm
-* in function on appcomponent insert form: type ngForm and then this form = object whit proto and value
-    * dirty false when that nothing has changed in form
-    * invalid false when there are no validations
-    * touched true when insert or focus in any input 
-* another way to get the proto of form whit @ViewChild
-    * add to the viewcild the name of form in the parenthesis @ViewChild('nameForm') and new name: type NgForm   
+* `name=""` in input
+* Opening a form tag insert `(ngSubmit)="function()"`
+* Opening a form tag insert `#name="ngForm"`
+* in the function insert the name of `ngForm`
+* in function on appcomponent insert `form: type ngForm` and then this form = object whit proto and value
+    * `dirty` false when that nothing has changed in form
+    * `invalid` false when there are no validations
+    * `touched` true when insert or focus in any input 
+* another way to get the proto of form whit `@ViewChild`
+    * add to the viewcild the name of form in the parenthesis `@ViewChild('nameForm') and new name: type NgForm `  
 * validators
-    * required in the input check if input empty
-    * email valid the email (in the inspect can see if this form valid or touched or durty and control)  
+    * `required` in the input check if input empty
+    * `email` valid the email (in the inspect can see if this form valid or touched or durty and control)  
     * https://angular.io/api/forms/Validators
-    * this enable to insert classes if this form valid like disabeld if valid [disabled]="!nameForm.valid"
-    * in css enable the insert class if this invalid by insert in the name of class input.ng-invalid.ng-touched{} 
-    * and can to insert name in input whit `"ngModel"` and enter span whit massage whit ngIf="nameInput.valid and touched"
+    * this enable to insert classes if this form valid like disabeld if valid `[disabled]="!nameForm.valid"`
+    * in css enable the insert class if this invalid by insert in the name of class `input.ng-invalid.ng-touched{}` 
+    * and can to insert name in input whit `"ngModel"` and enter span whit massage whit `ngIf="nameInput.valid and touched"`
