@@ -161,4 +161,4 @@
 * Opening a form tag insert (ngSubmit)="function()"
 * Opening a form tag insert #name="ngForm"
 * in the function insert the name of ngForm
-* in function on appcomponent insert form: type ngForm 
+* in function on appcomponent insert form: type ngForm and then this form = object whit proto and value
