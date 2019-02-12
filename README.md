@@ -171,3 +171,4 @@
 * validators
     * required in the input check if input empty
     * email valid the email (in the inspect can see if this form valid or touched or durty and control)  
+    * https://angular.io/api/forms/Validators
