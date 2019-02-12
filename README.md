@@ -13,6 +13,7 @@
 * ng-template
 * Module Introduction
 * services
+* routing
 
 
 ### Practices - 1
