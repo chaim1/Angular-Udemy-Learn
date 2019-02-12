@@ -176,4 +176,5 @@
     * in css enable the insert class if this invalid by insert in the name of class `input.ng-invalid.ng-touched{}` 
     * and can to insert name in input whit `"ngModel"` and enter span whit massage whit `ngIf="nameInput.valid and touched"`
 * in the `ngModel` in input can insert property for exemple in the selected insert the value whant default `[ngmodel]="default"` can set var fron component     
-* for insert the text in the another place in writing use ngModel `[(ngModel)="name"` and insert the name another place in component set the this `name=""` ]
+* for insert the text in the another place in writing use ngModel `[(ngModel)]="name"` and insert the name another place in component set the this `name=""` 
+* `ngModelGroup="nameGroup"` on div inputs gives in value group and can manipulate at a group like `#nameGroup="ngModelGroup"`
