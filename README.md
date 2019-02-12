@@ -162,3 +162,5 @@
 * Opening a form tag insert #name="ngForm"
 * in the function insert the name of ngForm
 * in function on appcomponent insert form: type ngForm and then this form = object whit proto and value
+ * dirty false when that nothing has changed in form
+ * 
