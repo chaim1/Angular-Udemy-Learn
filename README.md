@@ -156,3 +156,5 @@
 * Observable Operators
 
 ## forms-td-start
+* ngModul in input
+* name="" in input
