@@ -179,3 +179,4 @@
 * for insert the text in the another place in writing use ngModel `[(ngModel)]="name"` and insert the name another place in component set the this `name=""` 
 * `ngModelGroup="nameGroup"` on div inputs gives in value group and can manipulate at a group like `#nameGroup="ngModelGroup"`
 * for insert the value from component  insert `[value]="namevalue"` from `ngFor` and can insert `required`
+* for insert value in input use on click in function `this.nameForm(from ViweChild).setValue({ })` for many inputs or `this.nameForm(from ViweChild).patchValue({ })` for one input
