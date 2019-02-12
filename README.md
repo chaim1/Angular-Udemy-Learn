@@ -165,3 +165,5 @@
     * dirty false when that nothing has changed in form
     * invalid false when there are no validations
     * touched true when insert or focus in any input 
+* another way to get the proto of form whit @ViewChild
+    * add to the viewcild the name of form in the parenthesis @ViewChild('nameForm') and new name: type NgForm   
