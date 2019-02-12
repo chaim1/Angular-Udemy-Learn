@@ -168,3 +168,6 @@
     * touched true when insert or focus in any input 
 * another way to get the proto of form whit @ViewChild
     * add to the viewcild the name of form in the parenthesis @ViewChild('nameForm') and new name: type NgForm   
+* validators
+    * required in the input check if input empty
+    * email valid the email (in the inspect can see if this form valid or touched or durty and control)  
