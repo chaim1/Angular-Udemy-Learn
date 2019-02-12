@@ -174,4 +174,4 @@
     * https://angular.io/api/forms/Validators
     * this enable to insert classes if this form valid like disabeld if valid [disabled]="!nameForm.valid"
     * in css enable the insert class if this invalid by insert in the name of class input.ng-invalid.ng-touched{} 
-    * and can to insert name in input and enter span whit massage whit ngIf="nameInput.valid and touched"
+    * and can to insert name in input whit `"ngModel"` and enter span whit massage whit ngIf="nameInput.valid and touched"
