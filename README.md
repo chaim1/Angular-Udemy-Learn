@@ -178,3 +178,4 @@
 * in the `ngModel` in input can insert property for exemple in the selected insert the value whant default `[ngmodel]="default"` can set var fron component     
 * for insert the text in the another place in writing use ngModel `[(ngModel)]="name"` and insert the name another place in component set the this `name=""` 
 * `ngModelGroup="nameGroup"` on div inputs gives in value group and can manipulate at a group like `#nameGroup="ngModelGroup"`
+* for insert the value from component  insert `[value]="namevalue"` from `ngFor`
