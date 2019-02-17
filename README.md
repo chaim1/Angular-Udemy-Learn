@@ -180,3 +180,9 @@
 * `ngModelGroup="nameGroup"` on div inputs gives in value group and can manipulate at a group like `#nameGroup="ngModelGroup"`
 * for insert the value from component  insert `[value]="namevalue"` from `ngFor` and can insert `required`
 * for insert value in input use on click in function `this.nameForm(from ViweChild).setValue({ })` for many inputs or `this.nameForm(from ViweChild).patchValue({ })` for one input
+
+## forms-reactive-start
+* on app.module set in imports `ReactiveFormsModule` instead of `FormsModule` that `import from angular/forms`
+* on component set up var wiht type `FormGroup` That `import from angular/forms` 
+* and then on the compunent in the  var whit type FornGroup insert the names from html `'name': new FromControl()`; 
+* in the `FromControl()` need insert first argument value Second argument insert validator Third argument insert  asunchronous validators
