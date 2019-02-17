@@ -193,14 +193,12 @@
 * in css can use classes `ng-invalid` and `ng-touched`
 * you can use formGroup in formGroup and insert formControl in the formGroup and in html to get the name use name formGroup.fronControl
 * To give the user the option to add another address for example insert in FormGroup name type FormArray `'adress': new FormArray([])` 
-
-and on function 
+    * and on function 
 `onAddAdress(){`
     `const control = new FormControl(null, Validators.required);`
     `(<FormArray>this.signupForm.get('adress')).push(control);`
   `}`
-  
-  and in html 
+    and in html 
   `<div class="form-group"`
           `*ngFor="let hobbyControl of signupForm.get('adress').controls; let i = index">`
             `<input type="text" class="form-control" [formControlName]="i">`
