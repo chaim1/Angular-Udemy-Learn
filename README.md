@@ -216,3 +216,18 @@
   and in validation insert `'username': new FormControl(null, [Validators.required, this.forbiddenNames.bind(this)])`
   * and you can use error to know the error and giv massage you wont like this 
   `*ngIf="!singupForm.get(userName).errors['forbiddenNames' or 'required']"`
+  * for to do asyncValidator 
+  `  forbiddenEmails(control: FormControl): Promise<any> |Observable<any>{`
+    `const promise = new Promise<any>((resolve, reject)=>{`
+      `setTimeout(()=>{`
+        `if (control.value === 'test@test.com'){`
+          `resolve({'emailIsForbidden': true});`
+        `}else{`
+          `resolve(null)`
+        `}`
+      `},1000);`
+    `})`
+    `return promise;`
+  `}`
+  and in validators insert the name of this validators like this 
+  `'email': new FormControl(null, [Validators.required ,Validators.email], this.forbiddenEmails)`
