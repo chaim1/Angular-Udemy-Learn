@@ -186,3 +186,5 @@
 * on component set up var wiht type `FormGroup` That `import from angular/forms` 
 * and then on the compunent in the  var whit type FornGroup insert the names from html `'name': new FromControl()`; 
 * in the `FromControl()` need insert first argument value Second argument insert validator Third argument insert  asunchronous validators
+* on html insert on the tag form `[formGroup]="name from component"` from `FormGroup` and on the inputs insert the name from component from the `FromControl`
+* 
