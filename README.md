@@ -217,7 +217,7 @@
   * and you can use error to know the error and giv massage you wont like this 
   `*ngIf="!singupForm.get(userName).errors['forbiddenNames' or 'required']"`
   * for to do asyncValidator 
-  
+
   `  forbiddenEmails(control: FormControl): Promise<any> |Observable<any>{`
     `const promise = new Promise<any>((resolve, reject)=>{`
       `setTimeout(()=>{`
@@ -233,3 +233,31 @@
   
   and in validators insert the name of this validators like this 
   `'email': new FormControl(null, [Validators.required ,Validators.email], this.forbiddenEmails)`
+
+  * you can lisitenr to status or value like this 
+
+  `this.signupForm.statusChanges.subscribe(`
+      `(status) => {`
+       ` console.log(status);`
+      `}`
+    `)`
+    `this.signupForm.valueChanges.subscribe(`
+      `(value) => {`
+        `console.log(value);`
+     ` }`
+    `)`
+ * you can set the value or patch the value like this
+
+    ` this.signupForm.setValue({`
+    `  'usetData':{`
+    `    'username': 'chaim',`
+    `    'email': 'cohen1ch@gmai`
+    `  },`
+    `  'gender': 'male',`
+    `  'hobbies': []`
+    `})`
+    `this.signupForm.patchValue(`
+    `  'usetData':{`
+    `    'username': 'chaim',`
+    `  }`
+    `})         `
