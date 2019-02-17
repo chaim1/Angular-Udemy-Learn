@@ -192,11 +192,14 @@
 * and you can use in the html at the name fromGroup for validation whit method get('namefornControl') like this `name of FormGroup.get('name FromControl').valid or .touched` or just `FormGroup.valid or .touched`
 * in css can use classes `ng-invalid` and `ng-touched`
 * you can use formGroup in formGroup and insert formControl in the formGroup and in html to get the name use name formGroup.fronControl
-* To give the user the option to add another address for example insert in FormGroup name type FormArray `'adress': new FormArray([])` and on function `onAddAdress(){`
+* To give the user the option to add another address for example insert in FormGroup name type FormArray `'adress': new FormArray([])` and on function 
+`onAddAdress(){`
     `const control = new FormControl(null, Validators.required);`
     `(<FormArray>this.signupForm.get('adress')).push(control);`
   `}`
-  and in html `<div class="form-group"`
+  
+  and in html 
+  `<div class="form-group"`
           `*ngFor="let hobbyControl of signupForm.get('adress').controls; let i = index">`
             `<input type="text" class="form-control" [formControlName]="i">`
          ` </div>`
