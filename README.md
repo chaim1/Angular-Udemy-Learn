@@ -214,3 +214,5 @@
    ` return null`
   `}`
   and in validation insert `'username': new FormControl(null, [Validators.required, this.forbiddenNames.bind(this)])`
+  * and you can use error to know the error and giv massage you wont like this 
+  `*ngIf="!singupForm.get(userName).errors['forbiddenNames' or 'required']"`
