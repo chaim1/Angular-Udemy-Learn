@@ -188,3 +188,7 @@
 * in the `FromControl()` need insert first argument value Second argument insert validator Third argument insert  asunchronous validators
 * on html insert on the tag form `[formGroup]="name from component"` from `FormGroup` and on the inputs insert the name from component from the `FromControl`
 * on form tag insert `(ngSubmit)="function()"` and on the function you can use `FormGroup` onSubmit 
+* for validation no insert in the html instead of insert the validation in the `FromControl('value', [Validation.nameValidation, Validation.nameValidation])`
+* and you can use in the html at the name fromGroup for validation whit method get('namefornControl') like this `name of FormGroup.get('name FromControl').valid or .touched` or just `FormGroup.valid or .touched`
+* in css can use classes `ng-invalid` and `ng-touched`
+* you can use formGroup in formGroup and insert formControl in the formGroup and in html to get the name use name formGroup.fronControl
