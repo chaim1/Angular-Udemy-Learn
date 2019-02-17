@@ -203,3 +203,14 @@
           `*ngFor="let hobbyControl of signupForm.get('adress').controls; let i = index">`
             `<input type="text" class="form-control" [formControlName]="i">`
          ` </div>`
+ * if you dont wont alloy to user you can bild function to do valid like this
+    set the names `forbiddenUsernames = ['Chris', 'Anna']`
+
+    and duild function
+  `forbiddenNames(control: FormControl): {[s: string]: boolean} {`
+    `if (this.forbiddenUsernames.indexOf(control.value) !==-1){`
+      `return {nameIsForbidden: true}`
+    `}`
+   ` return null`
+  `}`
+  and in validation insert `'username': new FormControl(null, [Validators.required, this.forbiddenNames.bind(this)])`
