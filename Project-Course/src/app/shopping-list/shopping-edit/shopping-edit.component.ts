@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { Ingredient } from 'src/app/shared/ingredien.model';
 import { ShppingListService } from '../shopping-list.service';
 import { NgForm } from '@angular/forms';
-import { Subscription } from 'rxjs/Subscription';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-shopping-edit',
@@ -43,6 +43,6 @@ export class ShoppingEditComponent implements OnInit, OnDestroy{
   }
 
   ngOnDestroy(){
-    this.subscrption.unsubscrption();
+    this.subscrption.unsubscribe();
   }
 }
